@@ -50,11 +50,14 @@
     <Compile Include="IO.cs" />
     <Compile Include="IO_aux.cs" />
     <Compile Include="IT100.cs" />
+    <Compile Include="Logger.cs" />
     <Compile Include="MQTT_Helper.cs" />
+    <Compile Include="MQTT_Worker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
