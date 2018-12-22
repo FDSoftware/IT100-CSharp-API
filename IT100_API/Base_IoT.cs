@@ -29,6 +29,8 @@ namespace IT100_API
             if ( USB.Txt == null) {
                 //String vacio, agrego linea en blanco para no tirar error
                 IT100_Data.Add("-1 Sin Info");
+            }else {
+                IT100_Data = USB.Txt;
             }
             return IT100_Data;
         }
